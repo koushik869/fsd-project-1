@@ -1,0 +1,36 @@
+body {
+  background: black;
+  color: cyan;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1, h2 {
+  text-shadow: 0 0 10px cyan, 0 0 20px cyan;
+}
+
+input, button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background: cyan;
+  color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  background: white;
+}
+
+section {
+  margin-top: 40px;
+}
